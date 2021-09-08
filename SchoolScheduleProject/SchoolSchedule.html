@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>학교 시간표</title>
+    <style>
+    * {
+        margin: 10px auto;
+    }
+        table, th, td {
+      border:1px solid #ccc;
+      border-collapse: collapse;
+    }
+    th, td { padding:10px 20px; }
+  }
+      </style>
+</head>
+<body>
+    <div id="container">    
+        <header>
+          <div id="logo">
+            <a href="SchoolSchedule.html">
+              <h1>한국인 유학생을 위한</h1>
+              <h1>가고시마 대학</h1>
+            </a>
+          </div>
+          <nav>
+            <ul id="topMenu">
+              <li><a href="https://www.kagoshima-u.ac.jp/" target="_blank">가고시마대학 홈페이지</a></li>
+              <li><a href="#">이수등록 방법</a></li>
+              <li><a href="#">졸업요건 확인</a></li>
+              <li><a href="#">마이페이지</a></li>
+            </ul>
+          </nav>
+        </header>
+    
+    <h1>시간표 확인</h1>
+    <table>
+        <caption>3학년 2학기 시간표</caption>
+        <colgroup>
+            <col style="background-color:#eee;">
+            <col span="4" style="width:150px">
+          </colgroup>
+    <thead>
+        <tr>
+            <td></td>
+            <th style="background-color: #eee;">월</th>
+            <th style="background-color: #eee;">화</th>
+            <th style="background-color: #eee;">수</th>
+            <th style="background-color: #eee;">목</th>
+            <th style="background-color: #eee;">금</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>1교시</th>
+            <td>원자력·방사선과 환경</td>
+            <td></td>
+            <td>기계공학 세미나</td>
+            <td></td>
+            
+        </tr>
+        <tr>
+            <th>2교시</th>
+            <td></td>
+            <td></td>
+            <td>기계 영어1</td>
+            <td></td>
+            <td>기계제어공학</td>
+        </tr>
+        <tr>
+            <th>3교시</th>
+            <td></td>
+            <td>유체기계</td>
+            <td></td>
+            <td></td>
+            <td rowspan="3">응용기계설계</td>
+        </tr>
+        <tr>
+            <th>4교시</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            
+        </tr>
+        <tr>
+            <th>5교시</th>
+            <td>수치계산과 프로그램</td>
+            <td>과학 기술론</td>
+            <td></td>
+            <td></td>
+            
+        </tr>
+    </tbody>
+    <tfoot>
+        <th>총 단위 수:</th>
+        <td colspan="5"> 16</td>
+    </tfoot>
+    </table>
+    <h2>이수등록 확인</h2>
+    <p><a href="https://trisyu11.kuas.kagoshima-u.ac.jp/trisyu/public/registration/" target="_blank"></a></p>
+    <p><a href="https://trisyu11.kuas.kagoshima-u.ac.jp/trisyu/public/pdf/index.php" target="_blank">이수등록 확인하기(pdf)</a></p>
+
+    <h2>이수 등록 절차</h2>
+    <ol>
+        <li><a href="https://www.kagoshima-u.ac.jp/" target="_blank">가고시마 대학 홈페이지 접속</a></li>
+        <li>왼쪽 상단 <b>재학생(在学生)</b> 클릭</li>
+        <img src="images/tempsnip1.png" width="50%">
+        <li>아래로 스크롤 후 <b>교육 관계 각종 시스템 (教育関係各種システム)</b> 항목의 <b>가고시마 대학 학무 portal사이트 (鹿児島大学学務portaサイト)</b> 클릭</li>
+        <img src="images/tempsnip2.png" width="50%">
+        <li><b>이수 등록 시스템 (履修登録システム)</b> 클릭</li>
+        <img src="images/tempsnip3.png" width="50%">
+        <li>로그인<br></li>
+        <li>요일개강 (曜日開講) 클릭</li>
+        <img src="images/tempsnip4.png" width="50%">
+        <li>이수 등록</li>
+
+    </ol>
+
+    <h2>진급·졸업 요건</h2>
+    <object width="900" height="800" data="pdf/30-mech.pdf"></object>
+
+    <h3>내 성적 보기</h3>
+    <object width="900" height="800" data="pdf/ReportPreview.pdf"></object>
+    
+</body>
+</html>
