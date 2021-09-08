@@ -1,0 +1,311 @@
+.t13-lor {
+	font-size: 13px;
+	font-weight: bold;
+	color: #333333;
+	border-left-width: thick;
+	border-left-style: solid;
+	border-left-color: #FF6600;
+	background-color: #FFFFCC;
+	padding: 5px;
+}
+.t14-lpnk {
+	font-size: 14px;
+	font-weight: bold;
+	color: #333333;
+	border-left-width: thick;
+	border-left-style: solid;
+	border-left-color: #FF0066;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #FF0066;
+	padding: 5px;
+
+
+}
+.t14-lbl {
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+	border-left-width: thick;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #006699;
+	border-right-color: #006699;
+	border-bottom-color: #006699;
+	border-left-color: #006699;
+	color: #000066;
+	border-top-width: thin;
+	border-bottom-width: thin;
+	border-top-style: solid;
+
+}
+.t13-brk {
+	font-size: 13px;
+	line-height: 20px;
+}
+.t14brk {
+	font-size: 14px;
+	line-height: 22px;
+}
+.t14-lblue {
+	font-size: 14px;
+	border-left-width: thick;
+	border-left-style: solid;
+	border-top-color: #006699;
+	border-right-color: #006699;
+	border-bottom-color: #006699;
+	border-left-color: #006699;
+	color: #000066;
+	font-weight: bold;
+
+
+}
+.t14-lbl2 {
+	font-size: 14px;
+	color: #000099;
+	border-left-width: thick;
+	border-left-style: solid;
+	border-top-color: #3366FF;
+	border-right-color: #3366FF;
+	border-bottom-color: #3366FF;
+	border-left-color: #3366FF;
+}
+.t13-bl {
+	font-size: 13px;
+	color: #3366CC;
+	font-weight: bold;
+}
+.t14-bl {
+	font-size: 14px;
+	font-weight: bold;
+	color: #000066;
+	line-height: 22px;
+}
+
+
+/* 追加CSS分 */
+#SiteAll_Box{
+	width:912px;
+	background:url(images/site_shadow.png) center center repeat-y;
+	text-align:center;
+	margin: 0 auto;
+
+}
+#Site_Box{
+	width:900px;
+	margin:auto;
+	
+}
+#Site_Box .top-images{
+	width:100%;
+	height:15px;
+	background:#3399CC;
+	display:block;
+}
+
+/* SiteBody */
+#SiteBody{
+	width:750px;
+	margin:auto;
+	text-align:left;
+}
+.link-sitetop{
+	font-size:13px;
+	display:block;
+	text-align:right;
+}
+.link-sitetop a{
+	display:block;
+	padding:5px 0;
+	margin:0 10px;
+}
+.link-sitetop a:hover{
+	background:#f2f2f2;
+}
+
+/* Title */
+
+.Title_case01{
+	text-align:left;
+	padding:5px 0 5px 10px;
+	font-size: 16px;
+	font-style: italic;
+	font-weight: bold;
+	border-left-width: thick;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #006699;
+	border-right-color: #006699;
+	border-bottom-color: #006699;
+	border-left-color: #006699;
+	color: #000066;
+	border-top-width: thin;
+	border-bottom-width: thin;
+	border-top-style: solid;
+}
+
+.Title_case02{
+	width:700px;
+	text-align:left;
+	padding:5px 0 5px 10px;
+	margin:15px auto;
+	font-size: 14px;
+	font-weight: bold;
+	color: #333333;
+	border-left-width: thick;
+	border-left-style: solid;
+	border-left-color: #FF0066;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #FF0066;
+}
+
+/* SiteFooter */
+
+#SiteFooter{
+	font-size:13px;
+	background:#3399CC;
+	text-align:right;
+}
+#SiteFooter span{
+	display:block;
+	margin:0 10px;
+	padding:5px 0;
+}
+
+
+/* menu-navi */
+#menu-navi{
+  width:900px;
+}
+
+#menu-navi .home{
+	float:left;
+}
+
+#menu-navi ul { /*リスト全体*/
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#menu-navi li { /*リストの1段目*/
+  float: left;
+  min-width: 94px;
+  white-space: nowrap;
+}
+
+#menu-navi ul ul { /*2段目以降*/
+  display: none;
+  position: absolute;
+  z-index: 10;
+}
+
+#menu-navi li li { /*2段目以降のリスト項目*/
+  clear: left;
+  position:relative;
+  width: 100%;
+}
+
+#menu-navi ul ul ul { /*3段目以降*/
+  top: 0;
+  left: 100%;
+}
+
+#menu-navi ul li:hover > ul {
+  display: block;
+}
+
+*+html #menu-navi ul ul a { /*IE用*/
+  width: 72px; /*（94-10-10-1-1）パディングとボーダーの分を引いた値*/
+  white-space: normal; /*幅に応じて改行*/
+}
+
+#menu-navi a { /*1段目以降のメニュー文字*/
+  font-size: 13px;
+  line-height:0;
+  color: #333;
+  text-decoration: none;
+  text-align: center; /*1段目は文字を中央合わせに*/
+  display: block;
+}
+
+#menu-navi a:hover {
+  color: #FFF;
+  background-color: #009999;
+}
+
+#menu-navi ul ul {
+  padding-top: -2px;/*2段目を少し下げた*/
+}
+
+#menu-navi ul ul ul { /*3段目以降*/
+  padding-top: 0;
+}
+
+#menu-navi li li {
+  margin-left: 0;
+}
+
+#menu-navi ul ul a { /*2段目以降のメニュー文字*/
+  font-size: 13px;
+  line-height: 1.3;
+  text-align: left; /*2段目以降は左寄せにもどす*/
+  border-top: solid 1px #555555;
+  border-right: solid 1px #070707;
+  border-bottom: solid 1px #070707;
+  border-left: solid 1px #555555;
+  background-color: #FFF;
+  padding:5px 15px;
+}
+
+.Box700 {
+ width : 700px;
+ margin-left : 20px;
+ font-size: 13px;
+ line-height: 20px;
+ padding : 5px 20px;
+
+ }
+ 
+ h4 {
+ margin-left : 30px;
+ padding : 2px;
+ }
+ 
+center {
+ font-size: 13px;
+ line-height: 20px;
+ }
+ 
+ #SiteBody ul {
+ font-size: 13px;
+ line-height: 20px;
+ list-style: none;
+ }
+ 
+ #top_left {
+ width: 380px;
+ float: left;
+ text-align: left;
+ margin: 10px 5px 10px 10px;
+ }
+ 
+ #top_left ul {
+   list-style-type:none ;
+   font-size: 13px;
+   }
+   
+ #top_left li {
+   border-bottom: dotted 1px #ccc;
+   margin: 10px;
+   padding: 5px;
+   } 
+ 
+ #top_right {
+ width: 480px;
+ float: right;
+ text-align: left;
+ margin: 10px 10px 10px 5px;
+
+ }
