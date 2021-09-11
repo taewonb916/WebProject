@@ -1,0 +1,23 @@
+body{
+    margin: 0;
+}
+#top_menu{
+    border: solid;
+    display: flex;
+    flex-direction: row;
+}
+#top_menu a{
+    border:solid
+}
+#top_menu li,ul{
+    list-style: none;
+    float: left;
+}
+
+.small_menu{
+    display: none;
+}
+
+#top_menu a:hover {
+    display: inline-block;
+}
